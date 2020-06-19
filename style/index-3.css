@@ -1,0 +1,83 @@
+/*  =========  ***** GALLERY *****  =========  */
+.show img {
+  height: 65%;
+}
+.show {
+  background-color: #b22020;
+}
+.item .pf_content > h2 {
+  margin-top: 4em;
+}
+/*  =========  ***** GALLERY 1 Pediatrie *****  =========  */
+.pf-h4-0{
+  margin-top: 1em;
+  font-size: 15px;
+  background-color: #b22020;
+  color: #fff;
+}
+/*  =========  ***** About *****  =========  */
+.about-text p:nth-child(3){
+  font-size: 15px;
+}
+.about-text-1{
+  font-size: 15px;
+  color: #666666;
+  line-height: 21px;
+  font-weight: 500;
+  padding: 10px;
+  text-align: justify;
+  margin-bottom: 1em;
+  margin-top: 0.20em;
+  margin-left: 1em;
+  margin-right: 2em;
+}
+.child p:nth-child(1){
+  margin-top: -1em;
+  color: #b22020;
+}
+.child-2 p:nth-child(1){
+  margin-top: -1.50em;
+  color: #b22020;
+}
+#all-li-about{
+margin-left: 1em;
+margin-top: -1em;
+margin-bottom: 1em;
+}
+.line-li-about {
+  font-size: 15px;
+  color: #666666;
+  line-height: 21px;
+  font-weight: 500;
+  padding: 1px;
+  text-align: justify;
+}
+.neo-1{
+  margin-top: 2em;
+}
+.child-3{
+  margin-top: 1.50em;
+}
+.child-neo{
+  margin-top: -1.70em;
+}
+.child-neo p:nth-child(1){
+  color: #b22020;
+}
+.child-neo li{
+  font-size: 15px;
+}
+.gallery-3-neo p{
+  padding-top: 3em;
+  font-size: 17px;
+}
+.img-uro-1{
+  margin-top: 0.90em;
+  font-size: 17px;
+  background-color: #b22020;
+  color: #fff;
+}
+/*  =========  ***** Footer *****  =========  */
+.footer-sosm {
+  margin-top: 107em;
+}

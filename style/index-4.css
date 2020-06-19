@@ -1,0 +1,50 @@
+/*  =========  ***** ABOUT *****  =========  */
+#chirurgie-1{
+  margin-left: -20em;
+}
+.chirurgie{
+margin-left: -25em;
+}
+.chirurgie .product-thumb img{
+  width: 40em;
+  height: 20em;
+}
+/*  =========  ***** container-about coeliochirurgie *****  =========  */
+#coeliochirurgie{
+  margin-top: 3em;
+  margin-bottom: 1.60em;
+}
+#coeliochirurgie img{
+  margin-left: 14.50em;
+  width: 60%;
+  height: 40%;
+  -webkit-box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
+  -ms-box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
+  -o-box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
+  -webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.rl_2{
+  margin-left: 2.50em;
+}
+.pf-h4-0{
+  margin-top: 2em;
+  font-size: 15px;
+  background-color: #b22020;
+  color: #fff;
+}
+.pf-h4-1{
+  padding-top: 6.80em;
+}
+.pf-h4-2{
+  padding-top: 7em;
+}
+/*  =========  ***** Footer *****  =========  */
+.footer-sosm {
+  margin-top: 157em;
+}
