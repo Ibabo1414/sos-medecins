@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-------------###-----****** favicone ******-----###------------>
   <link rel="apple-touch-icon" sizes="57x57" href="../img/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../img/apple-icon-60x60.png">
@@ -29,7 +29,8 @@
   <link rel="stylesheet" href="../style/index-2.css">
   <link rel="stylesheet" href="../style/index-3.css">
   <link rel="stylesheet" href="../style/index-4.css">
-  <link rel="stylesheet" type="text/css" href="m-f.css">
+  <link rel="stylesheet" href="../style/index-7.css">
+  <link rel="stylesheet" type="text/css" href="../m-f.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -40,7 +41,49 @@
 <body>
   <!-------------###-----****** header ******-----###------------>
   <header>
-    <div class="logo">
+    <!-------------###-----****** Side Bar Navigation 1 : menu-toggle ******-----###------------>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+    <div class="slideout-sidebar">
+      <ul>
+        <li class="hoverable bimini">
+          <a href="../index.html">Accueil</a>
+        </li>
+        <li class="hoverable ttops categ">
+          <a href="#">Catégorie 1</a>
+          <div class="mega-products shado">
+            <div class="container">
+              <ul>
+                <li class="categ"><a href="../other/obstetrique.html" class="submenu sub-ul-first">FECONDATION IN
+                    VITRO</a></li>
+                <li class="categ"><a href="../other/obstetrique_2.html" class="submenu ">GYNECO OBSTETRIQUE</a></li>
+                <li><a href="../other/pediatrie_2.html" class="submenu ">NEONATOLOGIE</a></li>
+                <li><a href="../other/pediatrie.html" class="submenu sub-ul-first">PEDIATRIE</a></li>
+                <li><a href="../other/orl.html" class="submenu">ORL</a></li>
+                <li><a href="../other/coeliochirurgie.html" class="submenu">CHIRURGIE</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="hoverable covers categ">
+          <a href="#">Catégorie 2</a>
+          <div class="mega-products shado">
+            <div class="container">
+              <ul>
+                <li><a href="#" class="submenu sub-ul-first">LABORATOIRE</a></li>
+                <li><a href="../other/cardiologie.html" class="submenu">CARDIOLOGIE</a></li>
+                <li><a href="../other/urologie.html" class="submenu">UROLOGIE</a></li>
+                <li><a href="../other/diabete.html" class="submenu sub-ul-first">ENDOCRINOLOGIE-DIABETE</a></li>
+                <li><a href="../other/imagerie.html" class="submenu">IMAGERIE</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!------###-----****** /#Side Bar Navigation ******-----###------>
+    <!-------------###-----****** NavBar 2 ******-----###------------>
+    <div class="logo log-2 log-3">
       <a href="../index.html"><img src="../img/logo-sosm.png"></a>
     </div>
     <nav class="nav-bar">
@@ -79,13 +122,15 @@
             </div>
           </li>
           <li>
-            <form class="barre-de-recherhe">
-              <i class="fas fa-search"></i>
-              <input type="text" name="search" placeholder="Recherche..">
-            </form>
-          </li>
+            <div class="search-box">
+              <input class="search-txt" type="text" name="search" placeholder="Votre-recherche">
+              <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
           <li>
             <div class="inscrit"><a href="#">Contactez nous</a></div>
+          </li>
           </li>
         </ul>
       </div>
@@ -121,7 +166,7 @@
           <div class="content-txt">
             <h1>Objectif du site</h1>
             <h2>
-              <ul id="all-li">
+              <ul id="all-li lili">
                 <li class="line-li">Une bonne compréhension de nos activités.</li>
                 <li class="line-li">Une vision de notre organisation.</li>
                 <li class="line-li">Des explications sur les différents examens. </li>
@@ -204,7 +249,7 @@
     </div>
   </div>
   <!-------------###-----****** Container-2 ******-----###------------>
-  <!-------------###-----****** GALLERY : ALL ******-----###------------>
+  <!-------------###-----****** GALLERY : ALL ******-----###---------->
   <div id="container-2">
     <h3><span class="sos-first">CHIRURGIE</span></h3>
   </div>
@@ -215,7 +260,7 @@
     </aside>
   </section>
   <div id="rl_pf">
-   <!-- #1 -->
+    <!-- #1 -->
     <div class="show item open-item">
       <a href="#">
         <span class="full-link"></span>
@@ -229,25 +274,25 @@
     </div>
     <!--/#1 -->
     <div class="container-about">
-    <div class="about">
-      <div class="about-box">
-        <h2 class="about-title">La chirurgie Générale</h2>
-        <div class="child">
-          <p class="about-text">SOS MEDECINS pratique la chirurgie destinée à la prise en charge des maladies </p>
-          <ul id="all-li-about">
-            <li class="line-li-about">- de l’appareil digestif (œsophage, estomac, intestin grêle, colon)</li>
-            <li class="line-li-about">- du foie</li>
-            <li class="line-li-about">- du pancréas</li>
-            <li class="line-li-about">- de la vésicule</li>
-            <li class="line-li-about">- des glandes endocrines (thyroïdes, parathyroïdes, surrénales…)</li>
-            <li class="line-li-about">- la paroi abdominale (hernies, éventrations)</li>
-            <li class="line-li-about">- la chirurgie urologique (reins, prostate, vessie, voies urinaires)</li>
-            <li class="line-li-about">- la chirurgie gynécologique (kyste ovarien, fibrome utérin, etc.)</li>
-          </ul>
+      <div class="about">
+        <div class="about-box">
+          <h2 class="about-title">La chirurgie Générale</h2>
+          <div class="child">
+            <p class="about-text">SOS MEDECINS pratique la chirurgie destinée à la prise en charge des maladies </p>
+            <ul id="all-li-about">
+              <li class="line-li-about">- de l’appareil digestif (œsophage, estomac, intestin grêle, colon)</li>
+              <li class="line-li-about">- du foie</li>
+              <li class="line-li-about">- du pancréas</li>
+              <li class="line-li-about">- de la vésicule</li>
+              <li class="line-li-about">- des glandes endocrines (thyroïdes, parathyroïdes, surrénales…)</li>
+              <li class="line-li-about">- la paroi abdominale (hernies, éventrations)</li>
+              <li class="line-li-about">- la chirurgie urologique (reins, prostate, vessie, voies urinaires)</li>
+              <li class="line-li-about">- la chirurgie gynécologique (kyste ovarien, fibrome utérin, etc.)</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
     <!-------------###-----****** GALLERY 2 ******-----###------------>
     <section class="principal">
       <aside id="prin-fv">
@@ -255,7 +300,7 @@
       </aside>
     </section>
     <!-- GALLERY -->
-    <div id="rl_pf">
+    <div id="rl_pf coeliochirurgie-img">
       <!-- #2 -->
       <div class="show item open-item">
         <img src="../img/coelio-chirurgie (1).jpg">
@@ -269,256 +314,240 @@
       <div class="about">
         <div class="about-box">
           <h2 class="about-title">La coeliochirurgie</h2>
-          <p class="about-text">SOS MEDECINS pratique également la Coelio chirurgie ou intervention par Coelioscopie, 
-            qui est la technique chirurgicale permettant d’opérer à partir d’une image apparaissant sur un écran, 
-            transmise par un tube muni d’une optique, introduit dans l’organisme. 
+          <p class="about-text">SOS MEDECINS pratique également la Coelio chirurgie ou intervention par Coelioscopie,
+            qui est la technique chirurgicale permettant d’opérer à partir d’une image apparaissant sur un écran,
+            transmise par un tube muni d’une optique, introduit dans l’organisme.
           </p>
           <p class="about-text">
-            Nous pratiquons toutes les ablations des vésicules biliaires et la majeur partie des adenomes de 
+            Nous pratiquons toutes les ablations des vésicules biliaires et la majeur partie des adenomes de
             prostate par voie endoscopique.
           </p>
         </div>
       </div>
       <!--/#2 -->
-       <!-------------###-----****** GALLERY 3 ******-----###------------>
-    <div id="rl_pf">
-       <!-- GALLERY -->
-      <!-- #3 -->
-      <div class="show item open-item rl_2">
-        <img src="../img/coelio-ecran.jpg">
-        <h4 class="pf-h4-0">Intervention par Coelioscopie</h4>
-        <div class="pf_content">
-          <h2>SOS MEDECINS</h2>
-          <h4 class="pf-h4-0">La coeliochirurgie</h4>
-        </div>
-    </div>
-      <!--/#3 -->
-      <!--#3 -->
-      <div class="about">
-        <div class="about-box">
-          <h2 class="about-title">Les avantages de la Coelio chirurgie sont nombreux notamment :</h2>
-          <div class="child-3">
-            <ul id="all-li-about">
-              <li class="line-li-about">- une limitation considérable des incisions</li>
-              <li class="line-li-about">- une meilleure image du site d’intervention</li>
-              <li class="line-li-about">- une diminution des douleurs postopératoires</li>
-              <li class="line-li-about">- une diminution des cicatrices</li>
-              <li class="line-li-about">- une réduction des journées d'hospitalisation.</li>
-            </ul>
+      <!-------------###-----****** GALLERY 3 ******-----###------------>
+      <div id="rl_pf">
+        <!-- GALLERY -->
+        <!-- #3 -->
+        <div class="show item open-item rl_2">
+          <img src="../img/coelio-ecran.jpg">
+          <h4 class="pf-h4-0">Intervention par Coelioscopie</h4>
+          <div class="pf_content">
+            <h2>SOS MEDECINS</h2>
+            <h4 class="pf-h4-0">La coeliochirurgie</h4>
           </div>
         </div>
-      </div>
-      <!--/#3 -->
-      <!-- #4 -->
-      <section class="principal">
-        <aside id="prin-fv">
-          <p class="about-2">La première équipe à pratiquer la Coeliochirurgie en 2012</p>
-        </aside>
-      </section>
-      <div id="rl_pf-2">
-        <div id="coeliochirurgie">
-          <img src="../img/coelio-equipes.jpg">
+        <!--/#3 -->
+        <!--#3 -->
+        <div class="about">
+          <div class="about-box">
+            <h2 class="about-title">Les avantages de la Coelio chirurgie sont nombreux notamment :</h2>
+            <div class="child-3">
+              <ul id="all-li-about">
+                <li class="line-li-about">- une limitation considérable des incisions</li>
+                <li class="line-li-about">- une meilleure image du site d’intervention</li>
+                <li class="line-li-about">- une diminution des douleurs postopératoires</li>
+                <li class="line-li-about">- une diminution des cicatrices</li>
+                <li class="line-li-about">- une réduction des journées d'hospitalisation.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--/#3 -->
+        <!-- #4 -->
+        <section class="principal">
+          <aside id="prin-fv">
+            <p class="about-2">La première équipe à pratiquer la Coeliochirurgie en 2012</p>
+          </aside>
+        </section>
+        <div id="rl_pf-2">
+          <div id="coeliochirurgie">
+            <img src="../img/coelio-equipes.jpg">
           </div>
         </div>
         <div class="about">
           <div class="about-box">
             <h2 class="about-title">La coeliochirurgie</h2>
             <p class="about-text">
-              Tout cela se fait à la polyclinique SOS MEDECINS. Dépuis 30 ans de pratique Médico-chirurgicale, 
-              Dr François NDELIA et son équipe ont ouvert une voie, celle d'atteler la Médecine privée au GABON 
+              Tout cela se fait à la polyclinique SOS MEDECINS. Dépuis 30 ans de pratique Médico-chirurgicale,
+              Dr François NDELIA et son équipe ont ouvert une voie, celle d'atteler la Médecine privée au GABON
               aux techniques modernes de la santé.
             </p>
           </div>
         </div>
         <!--/#4 -->
-     <!-------------###-----****** FEATURE PRODUCTS ******-----###------------>
-      <!------ FEATURES 1 ------->
-      <div id="product-container">
-        <h3><span class="sos-first">Bon à savoir</span></h3>
-        <ul class="product-item">
-          <li><a href="../other/imagerie.html" target="_blank">
-              <div class="product-thumb">
-                <img src="../img/scanners.jpg" alt="featured">
-                <div class="shop-button">
-                  <div>Lire la suite</div>
+        <!-------------###-----****** FEATURE PRODUCTS ******-----###------------>
+        <!------ FEATURES 1 ------->
+        <div id="product-container">
+          <h3><span class="sos-first">Bon à savoir</span></h3>
+          <ul class="product-item">
+            <li><a href="../other/imagerie.html" target="_blank">
+                <div class="product-thumb">
+                  <img src="../img/scanners.jpg" alt="featured">
+                  <div class="shop-button">
+                    <div>Lire la suite</div>
+                  </div>
                 </div>
-              </div>
-              <h4 id="title-bonasavoir">SCANNER</h4>
-              <h4 class="bon-a-savoir">Nous nous sommes doté d’un scanner SIEMENS SOMATOM Scope 16 barettes qui permet
-                de diminuer la dose de rayonnement X, avec une qualité d'image équivalente pour chaque examen.
-                Cet équipement apporte un service inestimable à l'ensemble des patients.
-              </h4>
-            </a></li>
-          <li><a href="../other/imagerie.html" target="_blank">
-              <div class="product-thumb">
-                <img src="../img/radiologie.jpg" alt="featured">
-                <div class="shop-button">
-                  <div>Lire la suite</div>
+                <h4 id="title-bonasavoir">SCANNER</h4>
+                <h4 class="bon-a-savoir">Nous nous sommes doté d’un scanner SIEMENS SOMATOM Scope 16 barettes qui permet
+                  de diminuer la dose de rayonnement X, avec une qualité d'image équivalente pour chaque examen.
+                  Cet équipement apporte un service inestimable à l'ensemble des patients.
+                </h4>
+              </a></li>
+            <li><a href="../other/imagerie.html" target="_blank">
+                <div class="product-thumb">
+                  <img src="../img/radiologie.jpg" alt="featured">
+                  <div class="shop-button">
+                    <div>Lire la suite</div>
+                  </div>
                 </div>
-              </div>
-              <h4 id="title-bonasavoir">RADIO</h4>
-              <h4 class="bon-a-savoir">
-                Nos radiologues mettent à votre disposition leur expérience dans le domaine de la radiologie,
-                l'échographie et le scanner. Nous assurons des radiographies pulmonaires, abdominales,
-                des échographies pelviennes, thyroïdiennes, des muscles et tendons, ainsi que obstétricales.
-              </h4>
-            </a></li>
-          <li><a href="../other/imagerie.html" target="_blank">
-              <div class="product-thumb">
-                <img src="../img/echo.jpg" alt="featured">
-                <div class="shop-button">
-                  <div>Lire la suite</div>
+                <h4 id="title-bonasavoir">RADIO</h4>
+                <h4 class="bon-a-savoir">
+                  Nos radiologues mettent à votre disposition leur expérience dans le domaine de la radiologie,
+                  l'échographie et le scanner. Nous assurons des radiographies pulmonaires, abdominales,
+                  des échographies pelviennes, thyroïdiennes, des muscles et tendons, ainsi que obstétricales.
+                </h4>
+              </a></li>
+            <li><a href="../other/imagerie.html" target="_blank">
+                <div class="product-thumb">
+                  <img src="../img/echo.jpg" alt="featured">
+                  <div class="shop-button">
+                    <div>Lire la suite</div>
+                  </div>
                 </div>
-              </div>
-              <h4 id="title-bonasavoir">ECHOGRAPHIE</h4>
-              <h4 class="bon-a-savoir">
-                En nous choisissant, vous obtiendrez rapidement un rendez-vous et votre dossier sera traité
-                efficacement.
-                Un personnel courtois et à l’écoute de vos besoins s’assurera de vous accueillir avec respect dans
-                un environnement chaleureux et transmettra le rapport détaillé de votre examen.
-              </h4>
-            </a></li>
-          <li><a href="../other/obstetrique.html" target="_blank">
-              <div class="product-thumb">
-                <img src="../img/fiv.jpg" alt="featured">
-                <div class="shop-button">
-                  <div>Lire la suite</div>
+                <h4 id="title-bonasavoir">ECHOGRAPHIE</h4>
+                <h4 class="bon-a-savoir">
+                  En nous choisissant, vous obtiendrez rapidement un rendez-vous et votre dossier sera traité
+                  efficacement.
+                  Un personnel courtois et à l’écoute de vos besoins s’assurera de vous accueillir avec respect dans
+                  un environnement chaleureux et transmettra le rapport détaillé de votre examen.
+                </h4>
+              </a></li>
+            <li><a href="../other/obstetrique.html" target="_blank">
+                <div class="product-thumb">
+                  <img src="../img/fiv.jpg" alt="featured">
+                  <div class="shop-button">
+                    <div>Lire la suite</div>
+                  </div>
                 </div>
-              </div>
-              <h4 id="title-bonasavoir">FECONDATION IN VITRO</h4>
-              <h4 class="bon-a-savoir">
-                SOS MEDECINS s'est doté d'un équipement ultra moderne afin de donner une reponse à l'infertilité des
-                couples.
-                c'est ansi que en 2016 un service de PMA (Procréation Médicalement Assistée) fonctionne avec déjà
-                plusieurs
-                naissances à notre actif. SOS MEDECINS contribue à la réduction des évacuations sanitaire à l'etranger
-                par
-                la création de ce centre.
-              </h4>
-            </a></li>
-          <li><a href="../other/coeliochirurgie.html" target="_blank">
-              <div class="product-thumb">
-                <img src="../img/coelio-chirurgie.jpg" alt="featured">
-                <div class="shop-button">
-                  <div>Lire la suite</div>
+                <h4 id="title-bonasavoir">FECONDATION IN VITRO</h4>
+                <h4 class="bon-a-savoir">
+                  SOS MEDECINS s'est doté d'un équipement ultra moderne afin de donner une reponse à l'infertilité des
+                  couples.
+                  c'est ansi que en 2016 un service de PMA (Procréation Médicalement Assistée) fonctionne avec déjà
+                  plusieurs
+                  naissances à notre actif. SOS MEDECINS contribue à la réduction des évacuations sanitaire à l'etranger
+                  par
+                  la création de ce centre.
+                </h4>
+              </a></li>
+            <li><a href="../other/coeliochirurgie.html" target="_blank">
+                <div class="product-thumb">
+                  <img src="../img/coelio-chirurgie.jpg" alt="featured">
+                  <div class="shop-button">
+                    <div>Lire la suite</div>
+                  </div>
                 </div>
-              </div>
-              <h4 id="title-bonasavoir">COELIO CHIRURGIE</h4>
-              <h4 class="bon-a-savoir">
-                La Coelio chirurgie est une technique chirurgicale permetant de travailler sous ecran de télévision et
-                reduisant
-                ainsi les incisions opératoires, les durées d'hospitalisation, les douleurs et les infections des plaies
-                opératoires. Tout n'est que bénéfice pour le patient qui peut reprendre ses activités au bout de
-                quelques
-                jours.
-              </h4>
-            </a></li>
-          <li><a href="../other/pediatrie_2.html" target="_blank">
-              <div class="product-thumb">
-                <img src="../img/neonatologie.jpg" alt="featured">
-                <div class="shop-button">
-                  <div>Lire la suite</div>
+                <h4 id="title-bonasavoir">COELIO CHIRURGIE</h4>
+                <h4 class="bon-a-savoir">
+                  La Coelio chirurgie est une technique chirurgicale permetant de travailler sous ecran de télévision et
+                  reduisant
+                  ainsi les incisions opératoires, les durées d'hospitalisation, les douleurs et les infections des
+                  plaies
+                  opératoires. Tout n'est que bénéfice pour le patient qui peut reprendre ses activités au bout de
+                  quelques
+                  jours.
+                </h4>
+              </a></li>
+            <li><a href="../other/pediatrie_2.html" target="_blank">
+                <div class="product-thumb">
+                  <img src="../img/neonatologie.jpg" alt="featured">
+                  <div class="shop-button">
+                    <div>Lire la suite</div>
+                  </div>
                 </div>
-              </div>
-              <h4 id="title-bonasavoir">NEONATOLOGIE</h4>
-              <h4 class="bon-a-savoir">
-                La Coelio chirurgie est une technique chirurgicale permetant de travailler sous ecran de télévision et
-                reduisant ainsi
-                les incisions opératoires, les durées d'hospitalisation, les douleurs et les infections des plaies
-                opératoires.
-                Tout n'est que bénéfice pour le patient qui peut reprendre ses activités au bout de quelques jours.
-              </h4>
-            </a></li>
-        </ul>
-        <!------ FEATURES 2 ----->
-        <div class="features">
-          <div>
+                <h4 id="title-bonasavoir">NEONATOLOGIE</h4>
+                <h4 class="bon-a-savoir">
+                  La Coelio chirurgie est une technique chirurgicale permetant de travailler sous ecran de télévision et
+                  reduisant ainsi
+                  les incisions opératoires, les durées d'hospitalisation, les douleurs et les infections des plaies
+                  opératoires.
+                  Tout n'est que bénéfice pour le patient qui peut reprendre ses activités au bout de quelques jours.
+                </h4>
+              </a></li>
+          </ul>
+          <!------ FEATURES 2 ----->
+          <div class="features">
             <div>
-              <img class="feature-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3765537/shipping.png"
-                alt="ops">
+              <div>
+                <img class="feature-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3765537/shipping.png"
+                  alt="ops">
+              </div>
+              <div class="feat-info">
+                <h2>Transport sécurisé</h2>
+                <div>Grâce à nos ambulamces, nous vous garantissons un transport en toute sécurité.</div>
+              </div>
             </div>
-            <div class="feat-info">
-              <h2>Transport sécurisé</h2>
-              <div>Grâce à nos ambulamces, nous vous garantissons un transport en toute sécurité.</div>
-            </div>
-          </div>
-          <div>
             <div>
-              <img class="feature-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3765537/money.png" alt="ops">
+              <div>
+                <img class="feature-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3765537/money.png"
+                  alt="ops">
+              </div>
+              <div class="feat-info">
+                <h2>Payer sans stresse</h2>
+                <div>Les tarifs sont à la portée de toutes les bourses.</div>
+              </div>
             </div>
-            <div class="feat-info">
-              <h2>Payer sans stresse</h2>
-              <div>Les tarifs sont à la portée de toutes les bourses.</div>
-            </div>
-          </div>
-          <div>
             <div>
-              <img class="feature-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3765537/contact.png"
-                alt="ops">
-            </div>
-            <div class="feat-info">
-              <h2>Nous sommes ouvert 24h/24h</h2>
-              <div>Grâce à nos différentes équipes, nous sommes disponibles tous les jours 24h/24h.</div>
+              <div>
+                <img class="feature-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3765537/contact.png"
+                  alt="ops">
+              </div>
+              <div class="feat-info">
+                <h2>Nous sommes ouvert 24h/24h</h2>
+                <div>Grâce à nos différentes équipes, nous sommes disponibles tous les jours 24h/24h.</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="contactez-nous-but">
-        <button class="subscribe-button">
-          <a class="sub-but-a" href="#">Contactez-nous</a>
+        <div class="contactez-nous-but">
+          <button class="subscribe-button">
+            <a class="sub-but-a" href="#">Contactez-nous</a>
+          </button>
+        </div>
+        <!-------------###-----****** Button back to top ******-----###------------>
+        <button id="back-to-top-btn">
+          <i class="fas fa-angle-double-up"></i>
         </button>
-      </div>
-      <!-------------###-----****** Button back to top ******-----###------------>
-      <button id="back-to-top-btn">
-        <i class="fas fa-angle-double-up"></i>
-      </button>
-      <!-------------###-----****** Footer ******-----###------------>
-      <footer class="footer-sosm">
-        <div class="footer-left">
-          <h3><a href="../index.html"><img src="../img/logo-sosm.png"></a></span></h3>
-          <p class="footer-links">
-            <a href="#" class="link-1">Accueil</a>
-            <a href="#">SOS MEDECINS</a>
-            <a href="#">Tarification</a>
-            <a href="#">FAQ</a>
-            <a href="#">Contact</a>
-          </p>
-          <p class="footer-company-name">SOSMEDECINS © 2020</p>
-        </div>
-        <div class="footer-center">
-          <div>
-            <i class="fas fa-map-marker"></i>
-            <p><span>B.P.: 436 Libreville GABON</span> Libreville, Sotega</p>
+        <!-------------###-----****** Footer ******-----###------------>
+        <footer class="footer-sosm coeliochirurgie">
+          <div class="footer-center">
+            <h6><a href="../index.html"><img src="../img/logo-sosm.png"></a></h6>
           </div>
-          <div>
-            <i class="fas fa-phone"></i>
-            <p>+241 01 74 08 80 / 01 74 08 88 / 07 67 67 76</p>
+          <div class="footer-left">
+            <div class="footer-company-first">
+              <h6 class="compagny">Concernant l'entreprise</h6>
+              <p class="entreprise-sosm">Installé à Sotega Libreville GABON depuis 1993, SOS MEDECINS a
+                été créé en février 1986 par le Docteur François Xavier NDELIA,
+                Chirurgien, diplômé de la Faculté de Médecine de Montpellier. SOS MEDECINS
+                bénéficie d'une solide expérience dans les domaines SANITAIRE et de gestion
+                depuis déjà 30 ans.</p>
+            </div>
+            <div class="footer-right">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-google"></a>
+            </div>
+            <h3></h3>
+            <p class="footer-links">
+              <a href="#">B.P.: 436 Libreville GABON - Tél.: +241 01 74 08 80 / 01 74 08 88 / 07 67 67 76</a>
+              <span class="copyright">Copyright © Juin 2020 Tous droits réservés - Toute réproduction interdite</span>
+            </p>
           </div>
-          <div>
-            <i class="fas fa-envelope"></i>
-            <p><a href="sosmedecins@gmail.com">sosmedecins@gmail.com</a></p>
-          </div>
-        </div>
-        <div class="footer-right">
-          <p class="footer-company-about">
-            <span>Concernant l'entreprise</span>
-            Installé à Sotega Libreville GABON depuis 1993, SOS MEDECINS a
-            été créé en février 1986 par le Docteur François Xavier NDELIA,
-            Chirurgien, diplômé de la Faculté de Médecine de Montpellier. SOS MEDECINS
-            bénéficie d'une solide expérience dans les domaines SANITAIRE et de gestion
-            depuis déjà 30 ans.
-          </p>
-          <div class="footer-icons">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-google"></a>
-          </div>
-        </div>
-
-      </footer>
-      <!-------------###-----****** JS ******-----###------------>
-      <script src="../js/top.js"></script>
+        </footer>
+        <!-------------###-----****** JS ******-----###------------>
+        <script src="../js/top.js"></script>
 </body>
 
 </html>

@@ -9,7 +9,7 @@ margin-left: -25em;
   width: 40em;
   height: 20em;
 }
-/*  =========  ***** container-about coeliochirurgie *****  =========  */
+/*  =========  ***** container-about coeliochirurgie.html *****  =========  */
 #coeliochirurgie{
   margin-top: 3em;
   margin-bottom: 1.60em;
@@ -47,4 +47,29 @@ margin-left: -25em;
 /*  =========  ***** Footer *****  =========  */
 .footer-sosm {
   margin-top: 157em;
+}
+/*  =========  ***** footer - RESPONSIVE : pediatrie.html *****  =========  */
+@media screen and (max-width: 1024px) {
+.footer-sosm {
+  margin-top: 223em;
+}
+#coeliochirurgie img{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+}
+@media screen and (max-width: 768px) {
+.footer-sosm {
+  margin-top: 223em;
+}
+#coeliochirurgie img{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 }

@@ -27,3 +27,41 @@
 .footer-sosm {
   margin-top: 115em;
 }
+/*  =========  ***** footer - RESPONSIVE : orl.html *****  =========  */
+@media screen and (max-width: 1024px) {
+footer.orl {
+  margin-top: 3em;
+}
+}
+@media screen and (max-width: 375px) {
+form.orl-1{
+  margin-right: 2em;
+}
+.orl-2 .subscribe-button {
+	margin-left: 9.20em;
+}
+}
+@media screen and (max-width: 425px) {
+form.orl-1{
+  margin-right: 5em;
+}
+.orl-2 .subscribe-button {
+  margin-left: 10em;
+}
+}
+@media screen and (max-width: 360px) {
+form.orl-1{
+  margin-left: -30px;
+}
+.orl-2 .subscribe-button {
+  margin-left: 8.60em;
+}
+}
+@media screen and (max-width: 320px) {
+form.orl-1{
+  margin-right: 0.1em;
+}
+.orl-2 .subscribe-button {
+  margin-left: 7em;
+}
+}

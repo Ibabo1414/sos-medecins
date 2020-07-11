@@ -2,3 +2,30 @@
 .footer-sosm {
   margin-top: 6em;
 }
+/*  =========  ***** footer - RESPONSIVE : pediatrie_2.html *****  =========  */
+@media screen and (max-width: 768px) {
+footer.pediatrie_2 {
+  margin-top: 129em;
+}
+}
+@media screen and (max-width: 425px) {
+  footer.pediatrie_2 {
+  margin-top: 222em;
+}
+form.pediatrie-sub_2{
+  margin-right: 5em;
+}
+}
+@media screen and (max-width: 375px) {
+form.pediatrie-sub{
+  margin-right: 4em;
+}
+footer.pediatrie_2 {
+  margin-top: 223em;
+}
+}
+@media screen and (max-width: 360px) {
+form.pediatrie-sub_2{
+  margin-right: 1em;
+}
+}

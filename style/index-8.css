@@ -1,0 +1,69 @@
+
+/*  =========  ***** Footer : imagerie.html *****  =========  */
+.footer-sosm {
+  margin-top: 115em;
+}
+@media screen and (max-width: 1024px) {
+  /*  =========  ***** footer - RESPONSIVE : cardiologie.html *****  =========  */
+footer.cardiologie {
+  margin-top: 104em;
+}
+/*  =========  ***** footer - RESPONSIVE : imagerie.html *****  =========  */
+footer.imagerie {
+  margin-top: 109em;
+}
+}
+@media screen and (max-width: 768px) {
+/*  =========  ***** footer - RESPONSIVE : cardiologie.html *****  =========  */
+footer.cardiologie {
+  margin-top: 139em;
+}
+/*  =========  ***** footer - RESPONSIVE : imagerie.html *****  =========  */
+footer.imagerie {
+  margin-top: 148em;
+}
+}
+@media screen and (max-width: 425px) {
+/*  =========  ***** footer - RESPONSIVE : cardiologie.html *****  =========  */
+footer.cardiologie {
+  margin-top: 224em;
+}
+/*  =========  ***** footer - RESPONSIVE : imagerie.html *****  =========  */
+footer.imagerie {
+  margin-top: 242em;
+}
+}
+@media screen and (max-width: 375px) {
+/*  =========  ***** footer - RESPONSIVE : cardiologie.html *****  =========  */
+footer.cardiologie {
+  margin-top: 226em;
+}
+/*  =========  ***** footer - RESPONSIVE : imagerie.html *****  =========  */
+footer.imagerie {
+  margin-top: 248em;
+}
+}
+@media screen and (max-width: 360px) {
+  /*  =========  ***** footer - RESPONSIVE : cardiologie.html *****  =========  */
+  footer.imagerie {
+    margin-top: 242em;
+}
+}
+@media screen and (max-width: 320px) {
+/*  =========  ***** footer - RESPONSIVE : cardiologie.html *****  =========  */
+footer.cardiologie {
+  margin-top: 231em;
+}
+/*  =========  ***** footer - RESPONSIVE : imagerie.html *****  =========  */
+footer.imagerie {
+  margin-top: 241em;
+}
+#diabete-img {
+  width: 50%;
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: 5em;
+
+}
+}

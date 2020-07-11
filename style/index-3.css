@@ -77,7 +77,49 @@ margin-bottom: 1em;
   background-color: #b22020;
   color: #fff;
 }
-/*  =========  ***** Footer *****  =========  */
+/*  =========  ***** Footer : pediatrie_2.html *****  =========  */
 .footer-sosm {
-  margin-top: 107em;
+  margin-top: 98em;
+}
+/*  =========  ***** footer - RESPONSIVE : pediatrie.html *****  =========  */
+@media screen and (max-width: 768px) {
+footer.pediatrie {
+  margin-top: 134em;
+}
+}
+@media screen and (max-width: 425px) {
+  footer.pediatrie {
+  margin-top: 231em;
+}
+form.pediatrie-sub{
+  margin-right: 6em;
+}
+}
+@media screen and (max-width: 425px) {
+  footer.pediatrie {
+  margin-top: 231em;
+}
+}
+@media screen and (max-width: 411px) {
+form.pediatrie-sub{
+  margin-right: 5em;
+}
+}
+@media screen and (max-width: 375px) {
+form.pediatrie-sub{
+  margin-right: 4em;
+}
+footer.pediatrie {
+  margin-top: 231em;
+}
+}
+@media screen and (max-width: 360px) {
+form.pediatrie-sub{
+  margin-right: 2em;
+}
+}
+@media screen and (max-width: 320px) {
+form.pediatrie-sub{
+  margin-left: -1.40em;
+}
 }

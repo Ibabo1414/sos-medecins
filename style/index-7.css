@@ -1,5 +1,96 @@
 
-/*  =========  ***** Footer *****  =========  */
+/*  =========  ***** Footer : diabete.html *****  =========  */
 .footer-sosm {
-  margin-top: 127em;
+  margin-top: 123em;
+}
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+  /*  =========  ***** footer - RESPONSIVE : diabete.html *****  =========  */
+footer.diabete {
+  margin-top: 111em;
+} 
+}
+@media screen and (max-width: 1024px) {
+/*  =========  ***** footer - RESPONSIVE : coeliochirurgie.html *****  =========  */
+footer.coeliochirurgie {
+margin-top: 165em;
+}
+/*  =========  ***** footer - RESPONSIVE : diabete.html *****  =========  */
+footer.diabete {
+  margin-top: 126em;
+} 
+}
+@media screen and (max-width: 768px) {
+footer.coeliochirurgie {
+  margin-top: 183em;
+}
+/*  =========  ***** footer - RESPONSIVE : diabete.html *****  =========  */
+footer.diabete {
+  margin-top: 168em;
+} 
+}
+@media screen and (max-width: 425px) {
+/*  =========  ***** footer - RESPONSIVE : coeliochirurgie.html *****  =========  */
+.show {
+  margin-top: 2em;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+form.coeliochirurgie-search {
+  margin-left: -9em;
+}
+footer.coeliochirurgie {
+  margin-top: 267em;
+}
+/*  =========  ***** footer - RESPONSIVE : diabete.html *****  =========  */
+footer.diabete {
+  margin-top: 273em;
+} 
+}
+@media screen and (max-width: 375px) {
+  /*  =========  ***** footer - RESPONSIVE : coeliochirurgie.html *****  =========  */
+form.coeliochirurgie-search {
+  margin-left: -7em;
+}
+.show {
+  margin-top: 2em;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.coeliochirurgie {
+  margin-top: 268em;
+}
+/*  =========  ***** footer - RESPONSIVE : diabete.html *****  =========  */
+footer.diabete {
+  margin-top: 279em;
+} 
+}
+@media screen and (max-width: 360px) {
+/*  =========  ***** footer - RESPONSIVE : coeliochirurgie.html *****  =========  */
+footer.coeliochirurgie {
+  margin-top: 272em;
+}
+}
+@media screen and (max-width: 320px) {
+/*  =========  ***** footer - RESPONSIVE : coeliochirurgie.html *****  =========  */
+  form.coeliochirurgie-search {
+    margin-left: -5em;
+  }
+  .show {
+    margin-top: 2em;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer.coeliochirurgie {
+    margin-top: 271em;
+  }
+/*  =========  ***** footer - RESPONSIVE : diabete.html *****  =========  */
+footer.diabete {
+  margin-top: 286em;
+} 
 }

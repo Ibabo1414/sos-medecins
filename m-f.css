@@ -1,235 +1,893 @@
  /* ================== RESPONSIVE ================== */
 /* == MENU ITEMS ==  */
 @media screen and (max-width: 1301px) {
-	.sailing {
-	  display: none;
-	}
-	}
-	@media screen and (max-width: 1281px) {
-	.fishing {
-	  display: none;
-	}
-	}
-	@media screen and (max-width: 1050px) {
-	.seating {
-	  display: none;
-	}
-	}
-	@media screen and (max-width: 1025px) {
-	.covers {
-	  display: none;
-	}
-	}
-	@media screen and (max-width: 800px) {
-	.outboards {
-	  display: none;
-	}
-	}
-	@media screen and (max-width: 550px) {
-	.bimini, .ttops {
-	  display: none;
-	}
-	.hidden-menu {
-	  display: block!important;
-	}
-	.visible-menu {
-	  display: none!important;
-	}
-	.hoverable > a:after {
-	  display: none;
-	}
-	.mega-products::before {
-	  left: 50%;
-	}
-	}
-	/* == GALLERY ==  */
-	@media screen and (max-width: 400px) {
-	#rl_pf {
-	  margin: 10px;
-	  padding: 0;
-	}
-	.open-item .pf_content {
-	  background: white;
-	  opacity: 1;
-	}
-	.open-item h2,
-	.open-item h3,
-	.open-item .pf_viewmore {
-	  opacity: 1;
-	  color: black;
-	  transform: translateY(0px);
-	}
-	.pf_viewmore {
-	  display: none!important;
-	}
-	.item .pf_content {
-	  height: fit-content;
-	  top: unset;
-	  bottom: 0;
-	}
-	.pf_content h2 {
-	  letter-spacing: 4px;
-	  margin: 8px;
-	}
-	.pf_content h3 {
-	  display: none;
-	}
-	}
-	@media screen and (min-width: 401px) and (max-width: 800px) {
-	.open-item .pf_content {
-	  background: white;
-	  opacity: 1;
-	}
-	.open-item h2,
-	.open-item h3,
-	.open-item .pf_viewmore {
-	  opacity: 1;
-	  color: black;
-	  transform: translateY(0px);
-	}
-	.pf_viewmore {
-	  display: none!important;
-	}
-	.item .pf_content {
-	  height: fit-content;
-	  top: unset;
-	  bottom: 0;
-	}
-	.pf_content h2 {
-	  letter-spacing: 4px;
-	  margin: 8px;
-	}
-	.pf_content h3 {
-	  display: none;
-	}
-	}
-	@media screen and (max-width: 1383px) {
-	.product-item li {
-	  margin: 20px 50px;
-	}
-	}
-	@media screen and (min-width: 640px) {
-	.container {
-	  max-width: 640px;
-	}
-	.nav-bar > div {
-	  justify-content: space-between;
-	}
-	.footer-list {
-	  margin-right: 20px;
-	}
-	.footer-info-right {
-	  margin-left: 20px;
-	}
-	}
-	@media screen and (min-width: 700px) {
-	.header-l {
-	  display: block;
-	}
-	.header-m {
-	  display: none;;
-	}
-	.related-title {
-	  padding: 30px;
-	}
-	}
-	@media screen and (min-width: 760px) {
-	.container {
-	  max-width: 768px;
-	}
-	.subscribe-bar {
-	  justify-content: flex-end;
-	}
-	.features {
-	  flex-direction: row;
-	}
-	.footer-list {
-	  padding: 20px;
-	}
-	.copyright {
-	  margin-top: 64px;
-	}
-	}
-	@media screen and (min-width: 200px) {
-	.about {
-		background: url("img/sosm-1.png") no-repeat top center;
-	  margin: 10px auto;
-	}
-	}
-	@media screen and (min-width: 1024px) {
-	.container {
-	  max-width: 1024px;
-	}
-	}
-	@media screen and (min-width: 1100px) {
-	.container {
-	  max-width: 1280px;
-	}
-	.features > div {
-	  margin: 30px 50px;
-	}
-	}
-	@media screen and (min-width: 1200px) {
-	.about-box {
-	  margin: 30px;
-	}
-	}
-	@media screen and (max-width: 565px) {
-	.about-box {
-	  padding: 10px 0;
-	  margin: 15px;
-	}
-	.about-image {
-	  display: none;
-	}
-	.about-title {
-	  font-size: 18px;
-	}
-	.about-text {
-	  font-size: 14px;
-	  text-align: center;
-	}
-	}
-	/*----------button back to top------------- */
-	/*ebay corrections*/
-	.stBadge {
-		min-width: auto!important;
-	}
-	.stBadge img {
-	  display:none;
-	}
-	@media(max-width: 992px) {
-		#back-to-top-btn { 
-		  font-size: 22px; 
-		  width: 40px; 
-		  height: 40px; 
-		  bottom: 15px; 
-		  right: 15px; 
-		}
-	  }
-	  @media(max-width:768px) {
-		#back-to-top-btn { 
-		  font-size: 18px; 
-		  width: 32px; 
-		  height: 32px; 
-		  bottom: 6px; 
-		  right: 6px; 
-		}
-	  }
-/*-------------mon footer----------------- */
+.sailing {
+	display: none;
+}
+}
+@media screen and (max-width: 1281px) {
+.fishing {
+	display: none;
+}
+}
+@media screen and (max-width: 1206px) {
+.search-box{
+	margin-left: -2em;
+}
+.search-box:hover > .search-txt {
+	width: 70px;
+}
+.inscrit>a{
+	left: 94em;
+	top: 3.50em;
+}
+}
+@media screen and (max-width: 1141px) {
+.nav-bar {
+	margin-left: 10em;
+}
+.inscrit>a{
+	left: 70em;
+}
+}
+@media screen and (max-width: 1050px) {
+.seating {
+	display: none;
+}
+}
+@media screen and (max-width: 1059px){
+.hoverable > a {
+	padding: 12px 20px;
+	margin-right: 2em;
+}
+.footer-sosm {
+	margin-top: 120em;
+}
+/* Footer Right */
+.footer-sosm .footer-right{
+	padding-top: 1.60em;
+}
+.footer-sosm .footer-center h6 a > img{
+	margin-bottom: -21em;
+}
+.footer-sosm .compagny{
+	margin-top: 9em;
+	font-size: 12px;
+}
+.footer-sosm .footer-company-first p{
+	font-size: 10px;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+}
+}
+@media screen and (max-width: 1143px) {
+.footer-sosm .footer-center h6 a > img{
+	height: 12%;
+	width: 12%;
+}
+.footer-sosm .footer-links a:before {
+	font-size: 15px;
+}
+/* Footer Right */
+.footer-sosm .footer-right{
+	margin-left: -1.30em;
+  }
+.footer-sosm .footer-center p{
+	font-size:11px;
+}
+.footer-sosm .footer-center{
+	margin-left: 0.1em;
+}
+}
+@media screen and (max-width: 1024px) {
+.hoverable > a {
+	margin-right: -1em;
+}
+.nav-bar .container .nav-ul{
+	padding-right: 5em;
+}
+.hoverable{
+	margin-right: 3em;
+}
+.search-box{
+	margin-left: 3em;
+}
+.inscrit>a{
+	left: 79%;
+	top: 3.50em;
+	width: 14em;
+	height: 10px;
+}
+/* Footer Right */
+.footer-sosm .footer-right{
+	padding-top: 1.60em;
+}
+}
+@media screen and (max-width: 1016px) {
+.info-funder{
+	margin-top: 3em;
+}
+.info-funder > h5{
+	font-size: 15px;
+	margin-right: 4em;
+}
+}
+@media screen and (max-width: 972px) {
+.covers {
+	display: block;
+}
+}
+@media screen and (max-width: 942px) {
+.inscrit>a{
+	left: 82%;
+	top: 3.50em;
+	width: 12em;
+	height: 8px;
+}
+h3:first-line {
+	font-size: 3rem;
+	letter-spacing: 0 .5em;
+}
+.pf_content .pf_viewmore {
+	display: block;
+	font-size: 7px;
+}
+}
 @media (max-width: 880px) {
-	.footer-sosm{
-		font: bold 14px sans-serif;
-	}
-	.footer-sosm .footer-left,
-	.footer-sosm .footer-center,
-	.footer-sosm .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-	.footer-sosm .footer-center i{
-		margin-left: 0;
-	}
+.footer-sosm .footer-links{
+	padding-top: 1em;
+}
+.footer-sosm .footer-links a{
+	margin-left: -5em;
+	font-size: 10px;
+}
+.footer-sosm .footer-links span.copyright{
+	margin-left: -6em;
+}
+/* Footer Center */
+.footer-sosm .footer-center{
+	margin-left: 7em;
+}
+.footer-sosm .footer-icons{
+	margin-top: -2em;
+	font-size: 20px;
+}
+/* Footer Right */
+.footer-sosm .footer-right{
+	margin-left: 3em;
+	margin-bottom: 1em;
+	padding-top: 6.60em;
+}
+.footer-sosm .footer-center h6 a > img{
+	padding-top:6em;
+	margin-left: -5em;
+}
+.footer-sosm .footer-company-name{
+	margin-top: 2em;
+	margin-left: 1em;
+	text-align: center;
+}
+.footer-sosm .footer-icons{
+	margin-top: 0.5em;
+}
+/* Footer icone: social Network */
+.footer-sosm .footer-company-about {
+	line-height: 14px;
+}
+.footer-sosm .footer-right {
+	margin-top: 1em;
+	margin-right: 3em;
+}
+.footer-sosm .footer-company-first{
+	margin-top: -22em;
+	margin-left: 17em;
+}
+.footer-sosm .footer-company-first p{
+	font-size: 10px;
+	margin-left: -7em;
+	margin-right: -7em;
+}
+.footer-sosm .c ompagny{
+	margin-left: -2.80em;
+	margin-top: 20em;
+	font-size: 12px;
+}
+@media screen and (max-width: 843px) {
+.inscrit>a{
+	left: 82%;
+	top: 3.50em;
+}
+}
+@media screen and (max-width: 808px) {
+.inscrit>a{
+	left: 86%;
+	top: 3.50em;
+}
+}
+@media screen and (max-width: 781px) {
+.info-funder{
+	position: relative;
+	display: block;
+	margin-top: 2em;
+}
+.info-funder > h5{
+	font-size: 15px;
+	margin-right: 4em;
+}
+}
+@media screen and (max-width: 778px) {
+.inscrit > a{
+	left: 89%;
+	top: 3.50em;
+	width: 10em;
+	height: 8px;
+}
+h3:first-line {
+	font-size: 2rem;
+	letter-spacing: 0 .5em;
+}
+.pf_content .pf_viewmore {
+	display: block;
+	font-size: 6px;
+}
+.footer-sosm .footer-company-first .entreprise-sosm{
+	text-align: justify;
+	margin-left: -6em;
+	margin-right: -6em;
+}
+}
+@media screen and (max-width: 768px) {
+.nav-bar .container .nav-ul{
+	margin-left: -2.80em;
+}
+.hoverable{
+	margin-right: 1em;
+}
+.search-box{
+	margin-left: 2em;
+}
+.search-box:hover > .search-txt {
+	width: 70px;
+}
+.inscrit>a{
+	left: 82%;
+	top: 3.50em;
+}
+}
+@media screen and (max-width: 766px) {
+.nav-bar .container .nav-ul{
+	margin-left: -11em;
+}
+.hoverable a{
+	margin-left: -1em;
+	font-size: 14px;
+}
+.search-box{
+	margin-left: -4em;
+	margin-top: 3px;
+}
+.search-box:hover > .search-txt {
+	width: 50px;
+}
+.inscrit>a{
+	margin-left: 5em;
+}
+}
+@media screen and (max-width: 759px) {
+.footer-sosm {
+	margin-top: 133em;
+}
+}
+@media screen and (max-width: 733px) {
+.bimini > a {
+	margin-left: -4em;
+}
+h3:first-line {
+	font-size: 1.90rem;
+	letter-spacing: 0 .5em;
+}
+.pf_content .pf_viewmore {
+	display: block;
+	font-size: 5px;
+}
+.footer-sosm .footer-company-first .entreprise-sosm{
+	text-align: justify;
+	margin-left: -6em;
+	margin-right: -6em;
+}
+}
+@media screen and (max-width: 719px) {
+.footer-sosm {
+	margin-top: 190em;
+}
+.inscrit > a{
+	left: 86%;
+	top: 3.80em;
+}
+/* Footer Right */
+.footer-sosm .footer-right{
+	padding-top: 11em;
+}
+.footer-sosm .compagny{
+	margin-left: -0.1em;
+	margin-top: 20em;
+}
+.footer-sosm .footer-center h6 a > img{
+	height: 15%;
+	width: 15%;
+}
+}
+@media screen and (max-width: 717px) {
+.nav-bar .container .nav-ul{
+	margin-left: -6em;
+}
+.log-3 a > img {
+	width: 3em;
+	height: 2.70em;
+	margin-top: 0.70em;
+	margin-left: -1.30em;
+}
+.search-box{
+	margin-left: -2em;
+}
+.search-box:hover > .search-txt {
+	width: 40px;
+}
+.inscrit > a{
+	margin-left: 9em;
+	padding-bottom: 4em;
+	font-size: 8px;
+	margin-top: 2em;
+	width: 8em;
+	height: 6px;
+}
+.footer-sosm {
+	margin-top: 208em;
+}
+}
+@media screen and (max-width: 546px) {
+.nav-bar .hoverable > a{
+	display: none;
+}
+.logo > a{
+	margin-left: 4em;
+}
+.inscrit > a{
+	left: 80%;
+	top: 3.40em;
+	width: 13em;
+	height: 8px;
+}
+.search-box{
+	margin-left: -7em;
+	margin-top: 1.30em;
+}
+.search-box:hover > .search-txt {
+	width: 70px;
+}
+.slideout-sidebar {
+	display: block;
+}
+#menu-toggle {
+	display: none;
+}
+.menu-icon {
+	display: block;
+	color: rgb(8, 8, 8);
+}
+.slideout-sidebar .hoverable {
+	text-align: center;
+}
+.slideout-sidebar .bimini a {
+	margin-left: 0.1em;
+}
+/* Footer Right */
+.footer-sosm .footer-right{
+ margin-top: -14em;
+ display: block;
+ justify-content: center;
+ margin-right: 16.90em;
+}
+.footer-sosm .footer-company-first{
+	margin-top: -10em;
+	margin-bottom: 4em;
+	margin-left: 6em;
+	margin-right: 6em;
+}
+.footer-sosm .footer-company-first p{
+	font-size: 10px;
+}
+.footer-sosm .compagny{
+	margin-left: -2.80em;
+	margin-top: 20em;
+	font-size: 12px;
+}
+.footer-sosm .footer-center h6 a > img{
+	display: none;
+}
+}
+@media screen and (max-width: 640px) {
+	/* Footer Right */
+.footer-sosm .footer-right{
+	position: relative;
+	margin-right: 1em;
+}
+}
+@media screen and (max-width: 639px) {
+.inscrit > a{
+	left: 85%;
+	top: 3.40em;
+	width: 10em;
+	height: 8px;
+}
+}
+@media screen and (max-width: 550px) {
+.bimini, .ttops {
+	display: block;
+}
+.hidden-menu {
+	display: block!important;
+}
+.visible-menu {
+	display: none!important;
+}
+.hoverable > a:after {
+	display: block;
+}
+.mega-products::before {
+	left: 50%;
+}
+}
+/* ======= Side Bar Navigation ============  */
+@media screen and (max-width: 487px) {
+.menu-icon {
+	top: 20px;
+	left: 17px;
+	font-size: 27px;
+	color: #fff;
+}
+.log-3 a > img {
+	display: block;
+	width: 3em;
+	height: 4em;
+	margin-top: -1em;
+	margin-left: 10em;
+}
+.search-box{
+	margin-left: -10em;
+	top: 1em;
+}
+.inscrit > a{
+	margin-top: 1em;
+	padding-bottom: 4em;
+	margin-left: 10em;
+	font-size: 8px;
+}
+.search-box:hover > .search-txt {
+	width: 60px;
+}
+#slider{
+	height: 300px;
+}
+.content-txt{
+	margin-top: -8.80em;
+}
+.content-txt h1{
+	font-size: 8px;
+}
+.img-flex {
+	display: block;
+}
+.infos-title-funder{
+	text-align: center;
+}
+.img-flex .funder-img img{
+	position: relative;
+	display: block;
+	margin-left: 8em;
+	margin-right: auto;
+	margin-bottom: 4em;
+}
+.img-flex .info-funder{
+	margin-bottom: 3em;
+}
+.img-flex .info-funder h5{
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 16px;
+	line-height: 28px;
+}
+.about .about-title{
+	text-align: center;
+	margin-left: -1em;
+	font-size: 18px;
+}
+.about .about-text{
+	line-height: 28px;
+}
+.show{
+	margin-bottom: 3em;
+}
+.product-item li{
+	margin-bottom: 3em;
+}
+.compagny{
+	padding-left: 2.80em;
+}
+.footer-sosm {
+	margin-top: 236em;
+}
+.footer-sosm .footer-right{
+	margin-right: 8em;
+}
+.footer-links {
+	padding-left: 13em;
+	padding-right: 8em;
+}
+}
+@media screen and (max-width: 375px) {
+.hoverable > a {
+	margin-right: -1em;
+}
+.log-3 a > img {
+	display: block;
+	margin-top: -9px;
+	margin-left: 9em;
+	width: 3em;
+}
+.search-box{
+	margin-left: -8.70em;
+	top: 1em;
+}
+.inscrit > a{
+	margin-top: 3em;
+	padding-bottom: 5em;
+	margin-left: 9em;
+	font-size: 6px;
+}
+.search-box:hover > .search-txt {
+	width: 60px;
+}
+.content-txt .line-li{
+	font-size: 10px;
+}
+.content-txt{
+	margin-top: -9em;
+}
+.content-txt h1{
+	font-size: 9px;
+}
+.img-flex .funder-img img{
+	margin-left: 6.50em;
+}
+.footer-sosm .footer-right{
+	margin-right: 6.70em;
+}
+}
+@media screen and (max-width: 360px) {  
+.log-3 a > img {
+	display: block;
+	margin-top: -0.9em;
+	margin-left: 9em;
+}
+.search-box{
+	margin-left: -8em;
+	margin-top: 20px;
+}
+.inscrit > a{
+	padding-bottom: 5em;
+	margin-top: 2.90em;
+	margin-left: 5em;
+}
+.footer-sosm .footer-right{
+	margin-right: 6em;
+}
+}
+/*======== ### max-width; 320 ###===========*/
+@media screen and (max-width: 320px) {
+.menu-icon {
+	top: 20px;
+	font-size: 27px;
+	color: #000;
+}
+.log-3 a > img {
+	display: block;
+	width: 2.80em;
+	height: 3em;
+	margin-top: -0.30em;
+	margin-left: 8em;
+}
+.search-box{
+	margin-left: -6em;
+	top: 20px;
+}
+.search-box:hover > .search-txt {
+	width: 50px;
+  }
+.inscrit > a{
+	padding-bottom: 4em;
+	margin-top: 2.30em;
+	margin-left: 6em;
+	font-size: 7px;
+}
+.img-flex {
+	display: block;
+}
+#slider{
+	height: 300px;
+}
+.content-txt{
+	margin-top: -9em;
+}
+.content-txt h1{
+	font-size: 8px;
+}
+aside .infos-title-funder{
+	text-align: center;
+}
+.img-flex .funder-img img{
+	position: relative;
+	display: block;
+	margin-left: 5.50em;
+	margin-right: auto;
+	margin-bottom: 4em;
+}
+.img-flex .info-funder{
+	margin-bottom: 3em;
+}
+.img-flex .info-funder h5{
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 18px;
+	line-height: 28px;
+}
+h3{
+	display: block;
+}
+.content-txt .line-li{
+	font-size: 8px;
+}
+.about {
+	width: 18em;
+}
+.about .about-title{
+	text-align: center;
+	margin-left: -0.90em;
+	font-size: 24px;
+}
+.about .about-text{
+	line-height: 28px;
+	margin-right: 1em;
+}
+.show{
+	margin-bottom: 3em;
+}
+.product-item li{
+	margin-bottom: 3em;
+}
+.compagny{
+	padding-left: 2.80em;
+}
+.contactez-nous-but{
+	margin-left: -1em;
+	margin-bottom: 2em;
+}
+.footer-sosm {
+	position: absolute;
+	margin-top: 232em;
+}
+.footer-sosm .footer-right{
+	margin-right: 5em;
+}
+.footer-links {
+	padding-left: 13em;
+	padding-right: 8em;
+}
+}
+@media (max-width: 300px) {  
+.slideout-sidebar ul {
+	text-align: center;
+	max-width: 200px;
+	margin: 30px auto 0;
+}
+.slideout-sidebar {
+	display: block;
+}
+.menu-icon {
+	left: 20px
+}
+#menu-toggle:checked ~ .slideout-sidebar {
+	width: 100%;
+}
+#menu-toggle:checked + .menu-icon {
+	left: 87%;
+	color: #fafafa;
+}
+@media screen and (max-width: 1383px) {
+.product-item li {
+	margin: 20px 50px;
+}
+}
+@media screen and (min-width: 640px) {
+.container {
+	max-width: 640px;
+}
+.nav-bar > div {
+	justify-content: space-between;
+}
+.footer-list {
+	margin-right: 20px;
+}
+.footer-info-right {
+	margin-left: 20px;
+}
+}
+@media screen and (min-width: 700px) {
+.header-l {
+	display: block;
+}
+.header-m {
+	display: none;;
+}
+.related-title {
+	padding: 30px;
+}
+}
+@media screen and (min-width: 760px) {
+.container {
+	max-width: 768px;
+}
+.subscribe-bar {
+	justify-content: flex-end;
+}
+.features {
+	flex-direction: row;
+}
+.footer-list {
+	padding: 20px;
+}
+.copyright {
+	margin-top: 64px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.container {
+	max-width: 1024px;
+}
+}
+@media screen and (min-width: 1100px) {
+.container {
+	max-width: 1280px;
+}
+.features > div {
+	margin: 30px 50px;
+}
+}
+@media screen and (min-width: 1200px) {
+.about-box {
+	margin: 30px;
+}
+}
+@media screen and (max-width: 565px) {
+.about-box {
+	padding: 10px 0;
+	margin: 15px;
+}
+.about-image {
+	display: none;
+}
+.about-title {
+	font-size: 18px;
+}
+.about-text {
+	font-size: 14px;
+	text-align: center;
+}
+}
+/*----------button back to top------------- */
+.stBadge {
+min-width: auto!important;
+}
+.stBadge img {
+display:none;
+}
+@media (max-width: 992px) {
+#back-to-top-btn { 
+	font-size: 22px; 
+	width: 40px; 
+	height: 40px; 
+	bottom: 15px; 
+	right: 16px; 
+}
+}
+@media (max-width: 768px) {
+#back-to-top-btn { 
+	font-size: 18px; 
+	width: 32px; 
+	height: 32px; 
+	bottom: 6px; 
+	right: 9px; 
+}
+}
+}
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+.nav-bar {
+	margin-left: -13em;
+	margin-right: 7em;
+}
+.nav-bar .inscrit > a{
+	left: 99%;
+	width: 12em;
+	margin-left: 3em;
+}
+.nav-bar .log-3{
+	display: none;
+}
+.slideout-sidebar .inscription-1{
+	display: none;
+}
+.footer-sosm {
+	margin-top: 116em;
+}
+.footer-sosm .footer-company-first{
+	padding-right: -0.1em;
+}
+.footer-sosm .footer-right {
+	margin-right: 20px;
+	margin-top: -12.60em;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1206px) {
+.nav-bar {
+	margin-right: 7em;
+}
+.nav-bar .inscrit > a{
+	margin-left: 1em;
+}
+.footer-sosm {
+	margin-top: 100em;
+}
+.footer-sosm .footer-right {
+	margin-right: 50px;
+	margin-top: -6.10em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1600px) {
+h3{
+	display: block;
+	border-bottom: 4px double #b22020;
+}
+.footer-sosm h3{
+	display: block;
+	border-bottom: 4px double #fff;
+}
+}
+@media screen and (min-width: 200px) and (max-width: 767px) {
+.nav-bar .log-3{
+	display: block;
+}
+.slideout-sidebar .inscription-1{
+	display: block;
+}
+}
+@media screen and (min-width: 200px) {
+.about {
+	background: url("img/sosm-1.png") no-repeat top center;
+	margin: 10px auto;
+}
+}
+@media screen and (min-width: 768px) {
+.container {
+	max-width: 768px;
+}
+.subscribe-bar {
+	justify-content: flex-end;
+}
+.features {
+	flex-direction: row;
+	margin-top: 4em;
+}
 }

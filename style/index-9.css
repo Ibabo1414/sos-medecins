@@ -1,0 +1,48 @@
+
+/*  =========  ***** Footer : imagerie.html *****  =========  */
+.footer-sosm {
+  margin-top: 115em;
+}
+/*  =========  ***** footer - RESPONSIVE : urologie.html *****  =========  */
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+footer.urologie {
+  margin-top: 114em;
+}
+}
+@media screen and (max-width: 768px) {
+footer.urologie {
+  margin-top: 155em;
+}
+}
+@media screen and (max-width: 425px) {
+.show{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.urologie {
+  margin-top: 252em;
+}
+}
+@media screen and (max-width: 375px) {
+.show{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.urologie {
+  margin-top: 258em;
+}
+}
+@media screen and (max-width: 360px) {
+footer.urologie {
+  margin-top: 259em;
+}
+}
+@media screen and (max-width: 320px) {
+footer.urologie {
+  margin-top: 267em;
+}
+}
